@@ -1,0 +1,30 @@
+C:\Users\shyam\Documents\Personal\shyam_Gitoperations>git push -u origin main To https://github.com/shyamsandeep907/azure-vm-defender-signature-update.git ! [rejected] main -> main (fetch first) error: failed to push some refs to 'https://github.com/shyamsandeep907/azure-vm-defender-signature-update.git' hint: Updates were rejected because the remote contains work that you do not hint: have locally. This is usually caused by another repository pushing to hint: the same ref. If you want to integrate the remote changes, use hint: 'git pull' before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+resolution:
+Your remote main branch already has at least one commit (probably the README created on GitHub), and your local main has a different history.
+
+Git is protecting you from overwriting it.
+
+✅ Correct & Clean Fix (Recommended)
+
+Run this:
+
+git pull origin main --rebase
+
+If it succeeds, then run:
+
+git push origin main
+
+That’s it.
+
+🔎 What --rebase Does (Why We Use It)
+
+Instead of creating a messy merge commit, it:
+
+Downloads the remote commit
+
+Replays your local commits on top of it
+
+Keeps history clean
+
+This is the professional workflow ✔️

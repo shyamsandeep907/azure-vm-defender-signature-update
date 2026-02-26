@@ -173,5 +173,5 @@ $finalResults | Export-Excel `
     -ClearSheet
 
 Write-Host "Report saved to $OutputExcel" -ForegroundColor Green
-
+#===================================================================
 #This is the final working version of the script.

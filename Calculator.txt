@@ -11,3 +11,7 @@ z = 10 // 2
 
 #Percentage
 v = 10%
+
+#Multiplication 
+w = 3 * 4
+

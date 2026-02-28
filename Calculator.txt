@@ -3,3 +3,6 @@ x= 1 + 2
 
 #Subtraction Functionality
 y = 3 - 2
+
+#Division
+z = 10 // 2

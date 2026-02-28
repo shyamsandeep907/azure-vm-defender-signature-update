@@ -1,1 +1,5 @@
+#Addition Functionality
 x= 1 + 2 
+
+#Subtraction Functionality
+y = 3 - 2
